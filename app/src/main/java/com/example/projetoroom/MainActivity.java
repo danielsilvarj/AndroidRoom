@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 return this.cliente.toString();
 
             }catch (Exception ex){
-                return "Nao gravado : " + ex.getMessage();
+                return "Não gravado : " + ex.getMessage();
             }
         }
     }
